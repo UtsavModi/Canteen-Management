@@ -5,81 +5,51 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".MainActivity">
+        tools:context=".MainActivity"
+        android:background="@drawable/bg_image"
+        >
 
-    <com.airbnb.lottie.LottieAnimationView
-            android:id="@+id/animationView"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:lottie_fileName="food.json"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="85dp"
-            android:scaleType="center"
-            app:lottie_autoPlay="true"
-            app:lottie_loop="true"
-        />
+
 
     <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_marginTop="150dp"
-            android:padding="15dp">
+            android:layout_marginTop="90dp"
+            android:padding="10dp"
 
-        <EditText
-                android:id="@+id/email"
+            >
+
+        <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorlightpink"
-                android:hint="Email"
-                android:paddingTop="20dp"
-
-             />
-        <EditText
-                android:id="@+id/password"
-                android:textColor="@color/colorlightpink"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="Password"
-        />
-
-        <Button
-                android:id="@+id/signIn"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Sign In"
-                android:textColor="@color/colorlightpurple"
-                android:layout_marginTop="30dp"
-                android:autoSizeMaxTextSize="20dp"
-                android:layout_marginLeft="125dp"
-                android:layout_marginRight="125dp"
-                android:background="@drawable/gradient"
-        />
-
-        <Button
-                android:id="@+id/signUp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Sign Up"
-                android:textColor="@color/colorlightpurple"
-                android:layout_marginTop="20dp"
-                android:autoSizeMaxTextSize="20dp"
-                android:layout_marginLeft="125dp"
-                android:background="@drawable/gradient"
-                android:layout_marginRight="125dp"/>
-
-        <Button
-                android:id="@+id/forgot_pass"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Forgot Password"
-                android:textColor="@color/colorlightpurple"
-                android:layout_marginTop="30dp"
-                android:autoSizeMaxTextSize="20dp"
-                android:layout_marginLeft="85dp"
-                android:background="@drawable/gradient"
-                android:layout_marginRight="85dp"
+                android:text="Welcome to our Canteen"
+                android:textSize="40dp"
+                android:textColor="@color/colorwhite"
                 />
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nice to meet you"
+                android:textSize="20dp"
+                android:textColor="@color/colorwhite"
+                />
+
+
+
+        <Button
+                android:id="@+id/bt_signUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LOGIN"
+                android:textColor="@color/colorwhite"
+                android:layout_marginTop="25dp"
+                android:autoSizeMaxTextSize="20dp"
+                android:layout_marginLeft="80dp"
+                android:background="@drawable/gradient"
+                android:layout_marginRight="180dp"/>
+
+
  
     </LinearLayout>
 
