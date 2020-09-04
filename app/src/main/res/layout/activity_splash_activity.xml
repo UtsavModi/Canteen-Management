@@ -12,7 +12,7 @@
             android:layout_height="wrap_content"
             app:lottie_fileName="food.json"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="85dp"
+            android:layout_marginTop="95dp"
             android:scaleType="center"
             app:lottie_autoPlay="true"
             app:lottie_loop="true"
